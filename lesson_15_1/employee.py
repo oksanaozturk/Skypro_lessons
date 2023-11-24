@@ -25,10 +25,10 @@ class Developer(Employee):
         self.prog_lang = prog_lang
 
 
-# dev_1 = Developer('Ivan', 'Ivanov', 60000, 'Python')
-# dev_2 = Developer('Petr', 'Petrov', 70000, 'Java')
-
-dev_1 = Developer('Ivan', 'Ivanov', 60000, 'Python')
-dev_1.apply_raise()
-print(dev_1.pay)
-print(dev_1.fullname())
+if __name__ == '__main__':
+    # dev_1 = Developer('Ivan', 'Ivanov', 60000, 'Python')
+    # dev_2 = Developer('Petr', 'Petrov', 70000, 'Java')
+    dev_1 = Developer('Ivan', 'Ivanov', 60000, 'Python')
+    dev_1.apply_raise()
+    print(dev_1.pay)
+    print(dev_1.fullname())
